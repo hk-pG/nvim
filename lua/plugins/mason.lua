@@ -12,10 +12,10 @@ return {
         -- add more arguments for adding more language servers
         "ast_grep",
         "biome",
-        "ts_ls",
         "ruff",
         "pylsp",
         "powershell_es",
+        "tsserver",
       },
     },
   },
