@@ -1,24 +1,20 @@
-
 -- You can also add or configure plugins by creating files in this `plugins/` folder
 -- Here are some examples:
 
 ---@type LazySpec
 return {
 
-  -- add plugin 
+  -- add plugin
   -- colorschemes
   "sainnhe/everforest",
   "rmehri01/onenord.nvim",
   "catppuccin/nvim",
   "rebelot/kanagawa.nvim",
   {
-  "kylechui/nvim-surround",
+    "kylechui/nvim-surround",
     version = "*",
     event = "VeryLazy",
-    config = function()
-      require("nvim-surround").setup({
-      })
-    end
+    config = function() require("nvim-surround").setup {} end,
   },
 
   -- == Examples of Adding Plugins ==
