@@ -15,6 +15,7 @@ return {
         "ruff",
         "pylsp",
         "powershell_es",
+        "ts_ls",
       },
     },
   },
