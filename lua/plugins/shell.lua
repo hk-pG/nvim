@@ -2,7 +2,7 @@ return {
   "akinsho/toggleterm.nvim",
   config = function()
     -- Apply PowerShell settings only on Windows
-    if vim.fn.has "win32" == 1 or vim.fn.has "win64" == 1 then
+    if jit.os == "Windows" then
       local powershell_options = {
         shell = "pwsh",
         shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command [Console]::InputEncoding=[Console]::OutputEncoding=[System.Text.Encoding]::UTF8;",
