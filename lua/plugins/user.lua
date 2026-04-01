@@ -83,4 +83,9 @@ return {
       )
     end,
   },
+  -- colorshemes
+  "ray-x/aurora",
+  "rebelot/kanagawa.nvim",
+  "jacoborus/tender.vim",
+  "bluz71/vim-moonfly-colors",
 }
