@@ -25,3 +25,5 @@ end
 
 require "lazy_setup"
 require "polish"
+
+if vim.g.vscode then vim.o.cmdheight = 1 end
