@@ -7,6 +7,7 @@ return {
         ["jj"] = { "<Esc>", desc = "Escape" },
         ["jk"] = { "<Esc>", desc = "Escape" },
         ["kj"] = { "<Esc>", desc = "Escape" },
+        ["<ESc>"] = { "<Esc><Esc>", desc = "Double Escape" },
       },
     },
   },
